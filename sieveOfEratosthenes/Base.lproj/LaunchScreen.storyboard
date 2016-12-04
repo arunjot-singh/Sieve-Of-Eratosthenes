@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Copyright © 2016 Arunjot Singh. All rights reserved." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="eJs-b3-EEZ">
+                                <rect key="frame" x="55" y="701" width="304" height="15"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleCaption1"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sieve of Eratosthenes" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="19" translatesAutoresizingMaskIntoConstraints="NO" id="pqU-D2-N3D">
+                                <rect key="frame" x="26" y="345" width="363" height="46"/>
+                                <fontDescription key="fontDescription" type="italicSystem" pointSize="38"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="eJs-b3-EEZ" secondAttribute="trailing" constant="35" id="HIk-7W-LW0"/>
+                            <constraint firstItem="eJs-b3-EEZ" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="IIj-kh-uJ2"/>
+                            <constraint firstItem="pqU-D2-N3D" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="6" id="Kuh-xm-Ul9"/>
+                            <constraint firstItem="pqU-D2-N3D" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Yjt-LQ-gYI"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="pqU-D2-N3D" secondAttribute="trailing" constant="5" id="dwe-sW-tMX"/>
+                            <constraint firstItem="eJs-b3-EEZ" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="35" id="hCb-JR-SQ1"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="eJs-b3-EEZ" secondAttribute="bottom" constant="20" id="jVa-Wx-fh5"/>
+                            <constraint firstItem="pqU-D2-N3D" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="kak-Ku-p6h"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.34375" y="375"/>
+        </scene>
+    </scenes>
+</document>
